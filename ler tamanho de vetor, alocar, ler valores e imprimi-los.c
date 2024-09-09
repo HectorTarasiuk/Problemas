@@ -21,5 +21,6 @@ int main(){
         if(j<t-2) printf(", ");
         if(j==t-2) printf(" e ");
     }
+    free(vetor);
     return 0;
 }
